@@ -1,110 +1,79 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: "首页：Home"
+---
+<!-- 
+<h1 class="page-header">
+  <small>
+    {{ site.description }}
+  </small>
+</h1>
+-->
+<!-- Loop output paged posts -->
+<div id="index" class="row">
+    <div class="post-area">
+     	 <div class="post-list-body">
+        <div post-cate="All">
+        <ul class="posts">
+	{% for post in paginator.posts %}
+	<li>	
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<span class="date">{{ post.date | date_to_string }}</span>
+	
+	<hr>
+	<p>{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}</p>
+		<p> <a href="{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
+	<hr>
+	</li>
+	{% endfor %}
+	</ul>
+	<!-- Pager indicator -->
+	<ul class="pager">
+	  {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+	  <li class="previous">
+	    <a href="{{ site.url }}/">
+	      &larr; Older
+	    </a>
+	  </li>
+	  {% else %}
+	  <li class="previous">
+	    <a href="{{ site.url }}/page{{ paginator.previous_page }}">
+	      &larr; Older
+	    </a>
+	  </li>
+	  {% endif %} {% endif %} {% if paginator.next_page %}
+	  <li class="next">
+	    <a href="{{ site.url }}/page{{ paginator.next_page }}">
+	      Newer &rarr;
+	    </a>
+	  </li>
+	  {% endif %}
+	</ul>
+	</div>
+	
 
-<head>
-  <meta charset="UTF-8">
-  <title>WELCOME</title>
-  <style>
-    body{
-        background-image: url("./srchtml/bkgrd/bkgrd_img_1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-    .tit{
-        width: 25%;
-        height: 100%;
-        /* background-color: rgba(38, 123, 207, 0.5); */
-        border:solid 5px #ffffff;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .me{
-        width:65%;
-        height:100%;
-        background-color: rgba(255,255,255,0.65);
-    }
-    .para{
-        width:65%;
-        height:100%;
-        background-color: rgba(255,255,255,0.65);
-    }
-    .txt{
-      color: #083aa6;
-      line-height: 2;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    }
-    .sffx{
-      color:darkgrey;
-      font-family: 'Times New Roman', Times, serif;
-    }
-  </style>
-</head>
+	 
+       {% for category in site.categories %}
+	<div post-cate="{{category | first}}">
 
-<body>
-    <center>
-        <br><br><br>
-        <div class="tit">
-          <h1 style="color:#ffffff">Welcome To My World</h1>
-        </div>
-        <br><br><br>
-        <!-- <div class="me">
-            <br>
-            <img src="./srchtml/image/profile_image_1.png" align="left" alt="me" width="10%" height="10%">
-            <br>
-        </div> -->
-        <div class="para">
-            <br>
-            <p>TEST</p>
-            <br>
-            <br>
-            <p class="txt">  
-              <span style="font-size:25px">If I Can Stop One Heart From Breaking</span><br/>
-              Birds are born with no shackles<br/>
-              Then what fetters my fate<br/>
-              Blown away the white petals<br/>
-              Leave me trapped in the cage<br/>
-              The endless isolation<br/>
-              Can't wear down my illusion<br/>
-              Someday I'll make a dream unchain<br/>
-              Let my heart bravely spread the wings<br/>
-              Soaring past the night<br/>
-              To trace the bright moonlight<br/>
-              Let the clouds heal me of the stings<br/>
-              Gently wipe the sorrow of my life<br/>
-              I dream<br/>
-              What is meant by Miracle<br/>
-              A word outside my days<br/>
-              Once again repeat bubbles<br/>
-              But how could I escape<br/>
-              No further hesitation on those unanswered questions<br/>
-              So now I'll make a dream unchain<br/>
-              Let my heart bravely spread the wings<br/>
-              Soaring past the night<br/>
-              To trace the bright moonlight<br/>
-              Let the clouds heal me of the stings<br/>
-              Gently wipe the sorrow of my life<br/>
-              I dream<br/>
-              Let my heart bravely spread the wings<br/>
-              Soaring past the night<br/>
-              To trace the bright moonlight<br/>
-              Let the clouds heal me of the stings<br/>
-              Gently wipe the sorrow of my life<br/>
-              I dream<br/>
-              I dream<br/>
-            </p><br><br>
-      
-      
-          </div>
-          <br><br><br><br><br>
-          <p class="sffx">© 2024 Made by LinchyYu</p>
-          <br>
-      
-      
-    </center>
-</body>
+          <ul class="posts">
+            {% for posts in category  %}
+              {% for post in posts %}
+                {% if post.url %}
+		<li>
+                  <a href="{{ post.url }}" class="post-list-item">
+                    <h2>{{ post.title }}</h2>
+                    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  </a>
+		</li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </ul>
+	</div>
+        {% endfor %}
+	
+	 </div>
 
-</html>
+</div>
+</div>
