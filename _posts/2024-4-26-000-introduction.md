@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 楔子：兰德维迪的巨蛇
+title: 楔子：神的箱庭
 categories: TheBookOfDoomsday
 tags: [text]
 ---
