@@ -2,7 +2,7 @@
 layout: default
 title: "问答：Faqs"
 ---
-记录工作中遇到的一些小问题及解决办法，以防忘记后重头再找答案。
+<!-- 记录工作中遇到的一些小问题及解决办法，以防忘记后重头再找答案。
 
 ####格式：
 问：Win7下 Eclipse中按"Alt+Ctrl+Down或Alt+Ctrl+Up"时，结果屏幕倒了怎么办？  
@@ -17,7 +17,9 @@ Git查看、删除、重命名远程分支和tag: http://zengrong.net/post/1746.
 4,Google无障碍浏览链接：<https://github.com/greatfire/wiki>  
 5,在线Android等源码：<http://www.grepcode.com/>, <http://androidxref.com/>  
 6,Twitter University: <http://www.bluemobi.cn/>  
-更多请看本文评论，欢迎来盖楼！
+更多请看本文评论，欢迎来盖楼！ -->
+
+这里什么都没有呢
 
 <!-- Blog Comments -->
 <div class="media">
