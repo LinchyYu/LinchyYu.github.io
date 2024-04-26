@@ -1,10 +1,10 @@
 ---
 layout: post
-title: The copywriting
+title: 文案
 categories: TheBookOfDoomsday
 tags: [copywriting]
 ---
-## 文案
+## The copywriting
 
 　　《终末书：来路与归途》
 

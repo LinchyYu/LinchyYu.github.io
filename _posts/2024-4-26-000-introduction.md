@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Introduction
+title: 楔子：兰德维迪的巨蛇
 categories: TheBookOfDoomsday
 tags: [text]
 ---
