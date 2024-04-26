@@ -20,8 +20,8 @@ title: "关于：About"
 
 ### 关于本站：
 
-* CopyFrom[Github](https://github.com/LippiOuYang/LippiOuYang.github.io),请去支持
-* 2024/4/26尝试翻新
+* Copy From [Github](https://github.com/LippiOuYang/LippiOuYang.github.io),请去支持
+* 2024/4/26 尝试翻新
 
 ## 其他流言
 * 给亲友@lyn看的专属网站
