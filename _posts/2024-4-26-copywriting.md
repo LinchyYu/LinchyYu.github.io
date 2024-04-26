@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The copywriting
-categories: The Book of Doomsday
+categories: TheBookOfDoomsday
 tags: [copywriting]
 ---
 
