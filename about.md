@@ -4,7 +4,6 @@ title: "关于：About"
 ---
 
 ## 个人简介：
-<br/>
 
 * 丹青Dawntsing
 
@@ -14,7 +13,7 @@ title: "关于：About"
 
 <br/>
 
-## 联系方式
+## 联系方式：
 
 <p class="contact">
 <center>
@@ -31,16 +30,18 @@ title: "关于：About"
  <!-- github联系方式 -->
 <br/><br/>
 邮箱: 1309989705@qq.com 
+<br/>
 </center>
 </p>
 
-## 关于本站
+## 关于本站：
 <center><br/>
 
-Copy From [Github](https://github.com/LippiOuYang/LippiOuYang.github.io)，请去支持
+Copy From <a href="https://github.com/LippiOuYang/LippiOuYang.github.io">Github</a>，请去支持
 
 2024/4/26 尝试翻新
 
-给亲友@lyn看的专属网站
+给亲友 @lyn 看的Secret Base
 
+<br/><br/><br/>
 </center>
