@@ -33,7 +33,7 @@ title: "Home"
 	  {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
 	  <li class="previous">
 	    <a href="{{ site.url }}/">
-	      &larr; Older
+	      &larr; Newer
 	    </a>
 	  </li>
 	  {% else %}
@@ -45,7 +45,7 @@ title: "Home"
 	  {% endif %} {% endif %} {% if paginator.next_page %}
 	  <li class="next">
 	    <a href="{{ site.url }}/page{{ paginator.next_page }}">
-	      Newer &rarr;
+	      Older &rarr;
 	    </a>
 	  </li>
 	  {% endif %}
