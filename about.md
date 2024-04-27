@@ -4,24 +4,43 @@ title: "关于：About"
 ---
 
 ## 个人简介：
+<br/>
 
-* LinchyYu
-* 不是吧真的能搭建成功么
-* 现居Beijing
+* 丹青Dawntsing
+
+* 现居 Beijing,China
+
+* 破敲代码和破写文的
+
+<br/>
 
 ## 联系方式
 
 <p class="contact">
- <a href="http://weibo.com/Dawntsing" title="Weibo"><img src="http://www.sinaimg.cn/blog/developer/wiki/LOGO_32x32.png" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/>
-        <a href="http://www.zhihu.com/people/Dawntsing" title="Zhihu"><img src="http://www.zhihu.com/favicon.ico" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/>
- <a href="https://github.com/LinchyYu" title="Github"><img src="http://www.github.com/favicon.ico" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/>
+<center>
+<br/>
+ <a href="https://space.bilibili.com/499589452" title="Bilibili"><img src="https://www.bilibili.com/favicon.ico" width="24" height="24" style="margin-right:10px"></a>
+ <!-- B站联系方式 -->
+ <a href="https://www.xiaohongshu.com/user/profile/62ea70e9000000001f0051d9" title="小红书"><img src="https://www.xiaohongshu.com/favicon.ico" width="24" height="24" style="margin-right:10px"></a>
+ <!-- 小红书联系方式 -->
+ <a href="https://weibo.com/u/7312721138" title="Weibo"><img src="http://weibo.com/favicon.ico" width="24" height="24" style="margin-right:10px"></a>
+ <!-- 微博联系方式 -->
+ <a href="https://www.zhihu.com/people/zhu-qing-ben-xi" title="Zhihu"><img src="http://www.zhihu.com/favicon.ico" width="24" height="24" style="margin-right:10px"></a>
+ <!-- 知乎联系方式 -->
+ <a href="https://github.com/LinchyYu" title="Github"><img src="http://www.github.com/favicon.ico" width="24" height="24" style="margin-right:10px"></a>
+ <!-- github联系方式 -->
+<br/><br/>
 邮箱: 1309989705@qq.com 
+</center>
 </p>
 
-### 关于本站：
+## 关于本站
+<center><br/>
 
-* Copy From [Github](https://github.com/LippiOuYang/LippiOuYang.github.io),请去支持
-* 2024/4/26 尝试翻新
+Copy From [Github](https://github.com/LippiOuYang/LippiOuYang.github.io)，请去支持
 
-## 其他流言
-* 给亲友@lyn看的专属网站
+2024/4/26 尝试翻新
+
+给亲友@lyn看的专属网站
+
+</center>
