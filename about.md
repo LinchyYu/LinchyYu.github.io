@@ -37,11 +37,11 @@ title: "关于：About"
 ## 关于本站：
 <center><br/>
 
-Copy From <a href="https://github.com/LippiOuYang/LippiOuYang.github.io">Github</a>，请去支持<br/>
+Copy From <a href="https://github.com/LippiOuYang/LippiOuYang.github.io">Github</a>，请去支持<br/><br/>
 
-2024/4/26 尝试翻新<br/>
+2024/4/26 尝试翻新<br/><br/>
 
-给亲友 @lyn 看的Secret Base<br/>
+给亲友 @lyn 看的Secret Base<br/><br/>
 
 <br/><br/><br/>
 </center>
