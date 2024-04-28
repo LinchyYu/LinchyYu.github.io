@@ -35,3 +35,9 @@ config:
   js_dir:
   img_dir:
   css_dir:
+
+gittalk:
+  owner: LinchyYu
+  repo: World_Comments
+  clientID: 222e339db94fffc48a96
+  clientSecret: 362a36d71be119fa56377f912e12446ae4692fdf
